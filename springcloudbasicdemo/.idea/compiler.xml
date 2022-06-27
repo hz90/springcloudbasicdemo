@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudbasicdemo-config" />
+        <module name="springcloudbasicdemo-gateway" />
+        <module name="springcloudbasicdemo-feign-client" />
+        <module name="springcloudbasicdemo-auth" />
+        <module name="user-service" />
+        <module name="springcloudbasicdemo-eureka" />
+        <module name="api-fegin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-fegin" options="-parameters" />
+      <module name="springcloudbasicdemo" options="-parameters" />
+      <module name="springcloudbasicdemo-api" options="-parameters" />
+      <module name="springcloudbasicdemo-auth" options="-parameters" />
+      <module name="springcloudbasicdemo-config" options="-parameters" />
+      <module name="springcloudbasicdemo-eureka" options="-parameters" />
+      <module name="springcloudbasicdemo-feign-client" options="-parameters" />
+      <module name="springcloudbasicdemo-gateway" options="-parameters" />
+      <module name="springcloudbasicdemo-modules" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
