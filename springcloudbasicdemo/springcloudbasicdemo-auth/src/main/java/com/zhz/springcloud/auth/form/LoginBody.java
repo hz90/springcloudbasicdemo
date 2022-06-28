@@ -1,9 +1,11 @@
 package com.zhz.springcloud.auth.form;
 
 /**
- * 用户登录对象
- * 
- * @author ruoyi
+ * description:
+ *
+ * @author hzhao
+ * @version 1.0
+ * @date 2022/06/28 10:58
  */
 public class LoginBody
 {

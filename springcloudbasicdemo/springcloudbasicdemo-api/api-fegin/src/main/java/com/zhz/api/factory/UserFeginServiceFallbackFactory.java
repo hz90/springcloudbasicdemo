@@ -9,9 +9,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * 用户服务降级处理
- * 
- * @author ruoyi
+ * description:
+ *
+ * @author hzhao
+ * @version 1.0
+ * @date 2022/06/28 10:58
  */
 @Component
 public class UserFeginServiceFallbackFactory implements FallbackFactory<UserFeginService>
